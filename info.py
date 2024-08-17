@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://titu:titu@titu.8k0v7.mongodb.net/?retryWrites=true&w=majority&appName=titu")
-DATABASE_NAME = environ.get('DATABASE_NAME', "titu")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'titu')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://titu:titu@titu.s1md0.mongodb.net/?retryWrites=true&w=majority&appName=titu")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Titu")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Titu')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
